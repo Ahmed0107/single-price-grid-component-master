@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;1,500&display=swap');
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+ }
+
+ body {
+     background-color: #f0f0f0;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .container {
+     width: 40vw;
+     height: 60vh;
+     margin-top: 20vh;
+     display: flex;
+     flex-direction: column;
+     border-radius: 10px;
+ }
+
+ .join {
+     width: 100%;
+     height: 40%;
+     background-color: #fff;
+     padding: 30px;
+     border-radius: 10px 10px 0 0;
+ }
+
+ .join h2 {
+     font-size: 25px;
+     color: #2BB3B1;
+     letter-spacing: 1px;
+     margin-bottom: 10px;
+     font-style: bold;
+ }
+
+ .join h3 {
+     color: #BFDF32;
+     margin-bottom: 10px;
+ }
+
+ .join p {
+    opacity: 0.9;
+    font-size: 16px;
+ }
+
+ .detailes {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .detailes .signup {
+    width: 50%;
+    height: 100%;
+    background-color: #2BB3B1;
+    border-radius: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+ }
+ .detailes .signup h2 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+ }
+
+ .detailes .signup h3 span {
+     color: #fff;
+     font-size: 40px;
+     margin-right: 10px;
+ }
+
+ .detailes .signup h3 {
+    color: #fff;
+    margin-bottom: 8px;
+ }
+
+ .detailes .signup p {
+     color: #fff;
+     font-size: 14px;
+ }
+
+ .detailes .signup button {
+     width: 250px;
+     height: 50px;
+     margin: 35px auto 0;
+     background-color: #BFDF32;
+     border: 0;
+     border-radius: 10px;
+     color: #fff;
+     font-size: 20px;
+ }
+
+
+
+ .detailes .whyus {
+    width: 50%;
+    height: 100%;
+    background-color: #4ABEBD;
+    border-radius: 0 0 10px 0;
+    padding: 30px;
+ }
+
+ .detailes .whyus h2 {
+     color: #fff;
+     margin-bottom: 10px;
+ }
+
+ .detailes .whyus p {
+     color: #fff;
+     line-height: 23px;
+ }
+
+ @media (max-width: 600px) {
+    .detailes {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+     }
+
+     .detailes .signup {
+        width: 100%;
+        height: 50%;
+        background-color: #2BB3B1;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+     }
+ }
+
+ 
